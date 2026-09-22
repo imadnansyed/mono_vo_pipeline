@@ -159,7 +159,7 @@ Download the KITTI Odometry dataset separately and place the required files insi
 The repository expects the following structure:
 
 ```text
-dataset/
+data/
 └── 00/
     ├── image_2/
     │   ├── 000000.png
@@ -239,7 +239,7 @@ vo_pipeline/
 │   ├── parse_gt_poses.py
 │   └── load_image_paths.py
 │
-├── dataset/
+├── data/
 │   └── 00/
 │       ├── image_2/
 │       ├── calib.txt
@@ -251,12 +251,12 @@ vo_pipeline/
 └── vo_visualization.mp4
 ```
 
-> The `dataset/` directory should **not be committed to GitHub**. Add it to `.gitignore`.
+> The `data/` directory should **not be committed to GitHub**. Add it to `.gitignore`.
 
 Example:
 
 ```gitignore
-dataset/
+data/
 *.mp4
 ```
 
@@ -314,9 +314,9 @@ Update the dataset paths in the project configuration/code if necessary.
 For example:
 
 ```python
-IMAGE_DIR = "dataset/00/image_2"
-CALIB_FILE = "dataset/00/calib.txt"
-GT_FILE = "dataset/00/poses/00.txt"
+IMAGE_DIR = "data/00/image_2"
+CALIB_FILE = "data/00/calib.txt"
+GT_FILE = "data/00/poses/00.txt"
 ```
 
 ## 6. Run Visual Odometry
