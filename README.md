@@ -269,7 +269,7 @@ If you want the demonstration video available directly in the repository, you ca
 ## 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <[REPO](https://github.com/imadnansyed/mono_vo_pipeline.git)>
 cd vo_pipeline
 ```
 
