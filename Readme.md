@@ -461,7 +461,7 @@ The video contains:
 
 The visualization allows the estimated trajectory to be inspected as the sequence progresses.
 
-**Demo video:** `utils\vo_visualization.mp4`
+**Demo video:** `vo_visualization.mp4`
 
 ---
 
@@ -547,3 +547,5 @@ Possible extensions include:
 [ ] Pose graph optimization
 [ ] Global bundle adjustment
 ```
+
+---
