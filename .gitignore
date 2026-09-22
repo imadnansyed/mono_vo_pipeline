@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# KITTI dataset
+data/00/image_2/
+data/00/image_3/
+
+# Generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated outputs
+estimated_poses.txt
+ground_truth.txt
+
+# KITTI ground-truth poses
+data/poses/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
