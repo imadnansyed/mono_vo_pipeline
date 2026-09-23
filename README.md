@@ -260,8 +260,6 @@ data/
 *.mp4
 ```
 
-If you want the demonstration video available directly in the repository, you can remove `*.mp4` from `.gitignore` or use GitHub Releases/LFS depending on the file size.
-
 ---
 
 # How to Run
@@ -460,8 +458,6 @@ The video contains:
 ```
 
 The visualization allows the estimated trajectory to be inspected as the sequence progresses.
-
-**Demo video:** `vo_visualization.mp4`
 
 ---
 
